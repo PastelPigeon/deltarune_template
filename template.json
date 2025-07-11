@@ -1,0 +1,11 @@
+{
+  "name": "deltarune",
+  "description": "生成类似于游戏《DELTARUNE》样式的对话框动画",
+  "version": "1.0.0",
+  "icon": "",
+  "manifest": {
+    "html": "https://gh.llkk.cc/https://github.com/PastelPigeon/deltarune_template/blob/main/deltarune_template.html",
+    "requestSchema": "https://gh.llkk.cc/https://github.com/PastelPigeon/deltarune_template/blob/main/request-schema.json",
+    "exampleRequest": "https://gh.llkk.cc/https://github.com/PastelPigeon/deltarune_template/blob/main/example-request.json"
+  }
+}
