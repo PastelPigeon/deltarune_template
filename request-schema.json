@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "world_state": {
+                "type": "string"
+            },
+            "display_mode": {
+                "type": "string"
+            },
+            "character_id": {
+                "type": "string"
+            },
+            "character_face_id": {
+                "type": "integer"
+            },
+            "text": {
+                "type": "string"
+            },
+            "duration": {
+                "type": "integer"
+            }
+        },
+        "additionalProperties": false,
+        "required": [
+            "world_state",
+            "display_mode",
+            "character_id",
+            "character_face_id",
+            "text",
+            "duration"
+        ]
+    }
+}
